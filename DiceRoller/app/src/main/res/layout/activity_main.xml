@@ -6,7 +6,8 @@
     android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    
+    <!-- TODO (01) add "result_text" as id of the TextView -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
