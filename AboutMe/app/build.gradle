@@ -23,6 +23,8 @@ android {
         }
     }
 
+    // TODO (01) Enable dataBinding.
+
 }
 
 dependencies {
