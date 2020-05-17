@@ -1,5 +1,3 @@
-
-
 <resources>
     <string name="app_name">Android Trivia</string>
     <string name="game_over">Game Over</string>
