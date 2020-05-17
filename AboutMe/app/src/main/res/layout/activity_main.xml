@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/padding"
+    android:paddingEnd="@dimen/padding">
 
     <TextView
         android:layout_width="match_parent"
@@ -20,7 +22,15 @@
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/star_big_on" />
 
-    <!-- TODO (01) Add a ScrollView -->
-    <!-- TODO (02) Create a TextView with your bio inside the ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio" />
+    </ScrollView>
 
 </LinearLayout>
